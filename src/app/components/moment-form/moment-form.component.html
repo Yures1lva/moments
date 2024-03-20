@@ -1,0 +1,18 @@
+<!-- FormDir identificador do form pro angular -->
+<form (ngSubmit)="submit()" [formGroup]="momentForm" #FormDir="ngForm">
+    <div class="form-group">
+        <label for="title">Título:</label>
+        <input type="text" placeholder="Digite o título" required>
+    </div>
+
+    <div class="form-group">
+        <label for="description">Descrição:</label>
+        <textarea required placeholder="O que aconteceu?"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="image"> Coloque a foto</label>
+        <input type="file">
+    </div>
+    <input type="submit" value="{{ btnText}}">
+</form>
