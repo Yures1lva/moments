@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px #760cda solid;
+    margin-top: 20px;
+}
+
+h3{
+    padding: 5px;
+    padding-top: 4em;
+}
+
+p span{
+    color: #760cda;
+    font-weight: 700;
+}
