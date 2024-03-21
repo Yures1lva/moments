@@ -9,7 +9,7 @@ import { MessagesService } from '../../services/messages.service';
 })
 export class MessagesComponent {
   faTimes = faTimes;
-  constructor(public messageService: MessagesService){
+  constructor(public messagesService: MessagesService){
 
   }
 
