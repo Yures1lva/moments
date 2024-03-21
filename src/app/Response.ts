@@ -1,4 +1,5 @@
 export interface Response<T> {
+    [x: string]: any
     message?: string
-    date: T
+    data: T
 }
