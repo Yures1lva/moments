@@ -36,7 +36,6 @@ form{
 .form-group input, 
 .form-group textarea {
     padding: 0.6em;
-    color: #e9e9e9;
 }
 
 input[type="submit"]{
