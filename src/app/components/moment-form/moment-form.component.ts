@@ -17,7 +17,7 @@ export class MomentFormComponent implements OnInit {
    this.momentForm = new FormGroup({
     id: new FormControl(''),
     title: new FormControl('', [Validators.required]),
-    descipt: new FormControl('', [Validators.required]),
+    description: new FormControl('', [Validators.required]),
     image: new FormControl(''),
 
    })
