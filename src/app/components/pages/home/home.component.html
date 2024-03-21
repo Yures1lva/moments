@@ -4,14 +4,18 @@
     <!-- <div *ngIf="moments.length > 0"; else noMoments > -->
         <div class="moments-container">
             <div class="moment" *ngFor="let moment of moments">
-                <!-- <img src="{{baseApiUrl}}/uploads/{{moment.image}}" alt="{{moment.title}}"> -->
+                <img src="{{baseApiUrl}}/uploads/{{moment.image}}" >
                 <h2>
                     {{moment.title}}
                 </h2>
+                <h3>{{moment.descript}}</h3>
+                <p class="date"> em: {{moment.created_at}}</p>
+                <p>Comentários: {{moment.comments!.length}}</p>
+                <p><a routerLink="moments/{{moment.id}}"></a></p>
             <!-- </div> -->
         </div>
     </div>
-    <ng-template #noMoments >
+    <!-- <ng-template #noMoments >
         <h1>Não há momentos cadastrados</h1>
-    </ng-template>
+    </ng-template> -->
 </div>
