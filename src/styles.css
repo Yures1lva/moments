@@ -56,3 +56,11 @@ input[type="submit"]:hover{
     background-color: #760cda;
 
 }
+
+.validation-error p{
+    color: #dc3535;
+    border-left: 2px solid #dc3535;
+    padding-left: 0.2em;
+    margin-top: 0.2em;
+
+}

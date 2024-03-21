@@ -35,6 +35,8 @@ export class MomentFormComponent implements OnInit {
  submit(){
 
   if(this.momentForm.invalid ){
+  console.log("form não enviado  enviado")
+    
     return
   }
   console.log("form enviado")
