@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
 
   allMoments: Moment[] = []
   moments: Moment[] = []
-  baseApiUrl = environment.baseApiUrl
+  baseApiUrl = "http://127.0.0.1:3333/"
 
   //tofo search
 
